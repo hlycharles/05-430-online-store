@@ -1,0 +1,31 @@
+@import "./font.css";
+@import "./nav.css";
+@import "./footer.css";
+
+body {
+    margin-left: 0px;;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.row-container {
+    padding: 25px 30px;
+    overflow: auto;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.action-btn {
+    color: #fb8c00;
+    font-size: 24px;
+}

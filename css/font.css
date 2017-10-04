@@ -1,0 +1,49 @@
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+h4,
+h5 {
+    color: #424242;
+}
+
+h4 {
+    margin: 15px 0px;
+}
+
+h5 {
+    margin: 10px 0px;
+}
+
+h2,
+h3 {
+    color: #ff9800;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    color: white;
+    font-size: 18px;
+}

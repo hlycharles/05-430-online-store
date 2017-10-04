@@ -1,0 +1,27 @@
+.nav {
+    padding: 0px 30px;
+    margin-bottom: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-btn {
+    font-size: 24px;
+    width: 30%;
+}
+
+.nav-btn:first-child {
+    border-right: solid 1px #424242;
+}
+
+.nav-btn.selected {
+    font-weight: bold;
+    color: #fb8c00;
+}
+
+.nav-btn.unselected {
+    font-weight: lighter;
+}

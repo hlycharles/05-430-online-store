@@ -1,91 +1,4 @@
-body {
-    margin-left: 0px;;
-    margin-right: 0px;
-    margin-bottom: 0px;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    font-family: Helvetica, sans-serif;
-}
-
-h4,
-h5 {
-    color: #424242;
-}
-
-h4 {
-    margin: 15px 0px;
-}
-
-h5 {
-    margin: 10px 0px;
-}
-
-h2,
-h3 {
-    color: #ff9800;
-}
-
-h2 {
-    font-size: 40px;
-    font-weight: lighter;
-}
-
-h3 {
-    font-size: 32px;
-    font-weight: bold;
-}
-
-h4 {
-    font-size: 28px;
-}
-
-h5 {
-    font-size: 24px;
-}
-
-h6 {
-    color: white;
-    font-size: 18px;
-}
-
-button {
-    background: none;
-    border: none;
-}
-
-.nav {
-    padding: 0px 30px;
-    margin-bottom: 25px;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-}
-
-.nav-btn {
-    font-size: 24px;
-    width: 30%;
-}
-
-.nav-btn:first-child {
-    border-right: solid 1px #424242;
-}
-
-.nav-btn.selected {
-    font-weight: bold;
-    color: #fb8c00;
-}
-
-.nav-btn.unselected {
-    font-weight: lighter;
-}
+@import "./base.css";
 
 .slide-show {
     position: relative;
@@ -110,20 +23,6 @@ button {
     bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.action-btn {
-    color: #fb8c00;
-    font-size: 24px;
-}
-
-.info {
-    padding: 25px 30px;
-    overflow: auto;
 }
 
 .info-loc {
@@ -141,11 +40,6 @@ button {
     height: auto;
 }
 
-.about {
-    padding: 25px 30px;
-    overflow: auto;
-}
-
 .img-about {
     float: left;
     width: 45%;
@@ -159,19 +53,5 @@ button {
 }
 
 .ship {
-    padding: 25px 30px;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
     margin-bottom: 25px;
-}
-
-.footer {
-    display: flex;
-    background-color: #ffcc80;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
 }
