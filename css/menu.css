@@ -33,6 +33,36 @@
     margin-right: 15%;
 }
 
+.menu-listing li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-listing li > div {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-listing li > div > p {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu-listing li > div.gf {
+    background-color: #29b6f6;
+}
+
+.menu-listing li > div.veg {
+    background-color: #66bb6a;
+}
+
 .menu-listing-left {
     float: left;
 }

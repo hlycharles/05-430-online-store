@@ -72,10 +72,24 @@ window.onload = function() {
             const itemName = items[i].name;
             const itemListElem = document.createElement("li");
             const linkElem = document.createElement("a");
+            const noteElem = document.createElement("div");
+            if (!!items[i].isGlutenFree) {
+                noteElem.classList.add("gf");
+                const noteTextElem = document.createElement("p");
+                noteTextElem.appendChild(document.createTextNode("GF"));
+                noteElem.appendChild(noteTextElem);
+            }
+            if (!!items[i].isVegan) {
+                noteElem.classList.add("veg");
+                const noteTextElem = document.createElement("p");
+                noteTextElem.appendChild(document.createTextNode("V"));
+                noteElem.appendChild(noteTextElem);
+            }
             linkElem.setAttribute("href", "./detail.html");
             linkElem.classList.add("no-visited");
             linkElem.appendChild(document.createTextNode(itemName));
             itemListElem.appendChild(linkElem);
+            itemListElem.appendChild(noteElem);
             menuCols[currCol].appendChild(itemListElem);
             currCol = (currCol + 1) % menuCols.length;
         }
