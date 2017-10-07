@@ -49,10 +49,26 @@ h6 {
     font-size: 18px;
 }
 
+.text-lg {
+    font-size: 50px;
+}
+
 li:not(.selected) {
     font-weight: lighter;
 }
 
 li.selected {
     font-weight: bold;
+}
+
+a:visited {
+    color: #fb8c00;
+}
+
+a.no-visited {
+    color: #424242;
+}
+
+button:not(.action-btn) > a:not(.selected):visited {
+    color: #424242;
 }

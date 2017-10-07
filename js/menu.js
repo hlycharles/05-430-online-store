@@ -56,7 +56,7 @@ window.onload = function() {
         if (items.length == 0) {
             return;
         }
-        const menuCols = document.getElementsByClassName("menu-listing-col");
+        const menuCols = document.getElementsByClassName("listing-col");
         if (menuCols.length == 0) {
             return;
         }
@@ -71,7 +71,11 @@ window.onload = function() {
         for (let i = 0; i < items.length; i++) {
             const itemName = items[i].name;
             const itemListElem = document.createElement("li");
-            itemListElem.appendChild(document.createTextNode(itemName));
+            const linkElem = document.createElement("a");
+            linkElem.setAttribute("href", "./detail.html");
+            linkElem.classList.add("no-visited");
+            linkElem.appendChild(document.createTextNode(itemName));
+            itemListElem.appendChild(linkElem);
             menuCols[currCol].appendChild(itemListElem);
             currCol = (currCol + 1) % menuCols.length;
         }

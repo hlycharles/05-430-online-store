@@ -1,0 +1,75 @@
+@import "./base.css";
+
+.detail-left {
+    float: left;
+    width: 40%;
+}
+
+.detail-left > h3 {
+    width: 100%;
+    text-align: right;
+}
+
+.price-tag {
+    margin-bottom: 30px;
+}
+
+.purchase-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.num-btn,
+.num-btn-bg {
+    display: inline;
+}
+
+.num-btn {
+    font-size: 30px;
+}
+
+.num-btn-bg {
+    font-size: 40px;
+}
+
+.purchase-num {
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ingredient-btn {
+    float: right;
+}
+
+.detail-right {
+    float: right;
+    width: 50%;
+}
+
+.ingredient-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredient-listing {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.add-cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.add-cart-container > div {
+    margin-bottom: 50px;
+}

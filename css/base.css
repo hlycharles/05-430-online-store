@@ -15,6 +15,11 @@ button {
 
 a {
     text-decoration: none;
+    width: 100%;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 .row-container {
@@ -25,13 +30,26 @@ a {
 .vertical-container {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
-.action-btn {
+.action-link {
+    width: 250px;
+}
+
+.action-btn,
+.action-btn-no-border {
     color: #fb8c00;
     font-size: 24px;
+}
+
+.action-btn {
+    border: 5px solid #fb8c00;
+    border-radius: 20px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .slide-show {
@@ -57,4 +75,14 @@ a {
     bottom: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
+}
+
+.listing-col {
+    padding-left: 0px;
+}
+
+.listing-col > li {
+    font-size: 24px;
+    margin-bottom: 40px;
+    list-style: none;
 }

@@ -33,16 +33,6 @@
     margin-right: 15%;
 }
 
-.menu-listing-col {
-    padding-left: 0;
-}
-
-.menu-listing-col > li {
-    font-size: 24px;
-    margin-bottom: 40px;
-    list-style: none;
-}
-
 .menu-listing-left {
     float: left;
 }
