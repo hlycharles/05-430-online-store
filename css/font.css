@@ -3,7 +3,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+li {
     font-family: Helvetica, sans-serif;
 }
 
@@ -46,4 +47,12 @@ h5 {
 h6 {
     color: white;
     font-size: 18px;
+}
+
+li:not(.selected) {
+    font-weight: lighter;
+}
+
+li.selected {
+    font-weight: bold;
 }

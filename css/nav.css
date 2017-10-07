@@ -17,7 +17,7 @@
     border-right: solid 1px #424242;
 }
 
-.nav-btn.selected {
+.nav-btn.selected > a {
     font-weight: bold;
     color: #fb8c00;
 }
